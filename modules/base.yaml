@@ -1,0 +1,8 @@
+description: Base system packages and configuration
+
+packages:
+  - dcli-bootc
+
+repos:
+  copr:
+    - theblackdon/dcli-bootc
