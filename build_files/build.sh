@@ -7,6 +7,9 @@ cp -avf "/ctx/system_files"/. /
 
 ### Install packages
 
-#### Enable System Unit Files
+dnf5 -y copr enable theblackdon/dcli-bootc
+dnf5 -y install dcli-bootc
+
+### Enable System Unit Files
 
 systemctl enable podman.socket
